@@ -2,6 +2,7 @@
 /*---------BODY---------*/
 body{
     font-family:'Roboto',sans-serif;
+    color: #2E2F42;
 }
 
 a{
@@ -52,6 +53,11 @@ ul{
     color: #2E2F42;
 }
 
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus{
+    color: #404bbf;
+}
+
 .Contacts {
 
 }
@@ -65,6 +71,11 @@ ul{
             letter-spacing: 0.02em;
             color: #434455;
         }
+
+.address-link:hover{
+    color: #404bbf;
+}
+/*---------HEADER------*/
 
 /*---------HERO-----------*/
 
@@ -90,6 +101,11 @@ ul{
         color: #FFFFFF;
 }
 
+
+/*---------HERO-----------*/
+
+
+/*---------Features------*/
 .Features {}
 
 .subsection-list {}
@@ -109,7 +125,11 @@ ul{
         color: #434455;
 }
 
-.Portfolio {}
+/*---------Features------*/
+
+/*---------OUR TEAM------*/
+
+.team {}
 
 .sub-title {
     font-weight: 700;
@@ -120,7 +140,15 @@ ul{
         color: #2E2F42;
 }
 
-.portfolio-items {}
+.list-items{}
+
+
+/*----------OUR TEAM------*/
+
+
+
+
+/*---------FOOTER-----*/
 
 .footer {
     width: 1440px;
@@ -145,3 +173,5 @@ ul{
         letter-spacing: 0.02em;
         color: #F4F4FD;
 }
+
+/*---------FOOTER-----*/
