@@ -18,8 +18,6 @@ ul{
 
 .header {
     background-color: #E7E9FC;
-    width: 1440px;
-    height: 72px;
 }
 
 .link-logo {
@@ -55,11 +53,11 @@ ul{
 }
 
 .Contacts {
+    font-style: normal
 
 }
 
 .address-list {
-    font-style: normal
 }
 
 .address-link {
@@ -151,7 +149,9 @@ ul{
     background-color: #FFFFFF;
 }
 
-.photo-team{}
+.photo-team{
+    background-color: #FFFFFF;
+    }
 
 /*----------OUR TEAM------*/
 
