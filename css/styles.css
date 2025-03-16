@@ -2,7 +2,8 @@
 /*---------BODY---------*/
 body{
     font-family:'Roboto',sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a{
@@ -28,19 +29,14 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-}
-
-.accent {
     color: #4D5AE5;
 }
 
+.logo-navigation {
+    color: #2E2F42;
+}
+
 .nav-list {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
 }
 
 .nav-item {}
@@ -62,7 +58,9 @@ ul{
 
 }
 
-.address-list {}
+.address-list {
+    font-style: normal
+}
 
 .address-link {
         font-weight: 400;
@@ -177,7 +175,17 @@ ul{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #F4F4FD;
+        color: #4D5AE5;
+
+}
+
+.logo-footer{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:#F4F4FD ;
 
 }
 
